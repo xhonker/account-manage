@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         account-manage
 // @namespace    https://github.com/xhonker/account-manage
-// @version      0.1.13
+// @version      0.1.14
 // @description  internal account manage
 // @updateURL    https://greasyfork.org/scripts/408667-account-mannage/code/account-mannage.user.js
 // @downloadURL  https://greasyfork.org/scripts/408667-account-mannage/code/account-mannage.user.js
