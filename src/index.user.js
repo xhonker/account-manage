@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         account-mannage
+// @name         account-manage
 // @namespace    https://github.com/xhonker/account-manage
 // @version      0.1.11
 // @description  internal account manage
