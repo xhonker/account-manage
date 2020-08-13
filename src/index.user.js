@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         account-manage
 // @namespace    https://github.com/xhonker/account-manage
-// @version      0.1.18
+// @version      0.1.19
 // @description  internal account manage
 // @author       Quicker
 // @include      *://e.360.cn/
@@ -62,7 +62,7 @@ function handlerEvent(ev) {
 function handlerLogin(data) {
   const { username, password, login } = config[hostname];
   const $username = document.querySelector(username);
-  if ($username) return setTimeout(() => handlerLogin(data), 500);
+  if (!$username) return setTimeout(() => handlerLogin(data), 500);
   handlerBaidu();
   const $password = document.querySelector(password);
   const $login = document.querySelector(login);
