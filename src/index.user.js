@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         account-manage
 // @namespace    https://github.com/xhonker/account-manage
-// @version      0.1.16
+// @version      0.1.17
 // @description  internal account manage
 // @author       Quicker
 // @include      *://e.360.cn/
