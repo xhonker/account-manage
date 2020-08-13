@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         account-manage
 // @namespace    https://github.com/xhonker/account-manage
-// @version      0.1.17
+// @version      0.1.18
 // @description  internal account manage
 // @author       Quicker
 // @include      *://e.360.cn/
@@ -27,7 +27,7 @@ const config = {
     password: 'input[name="password"]',
     login: '[class$=login-button]',
   },
-  'csa.baidu.com': {
+  'cas.baidu.com': {
     username: 'input[name="entered_login"]',
     password: '#ucsl-password-edit',
     login: '#submit-form',
