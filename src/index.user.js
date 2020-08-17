@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         account-manage
 // @namespace    https://github.com/xhonker/account-manage
-// @version      0.1.19
+// @version      0.1.20
 // @description  internal account manage
 // @author       Quicker
 // @include      *://e.360.cn/
@@ -45,7 +45,7 @@ function postMessage(action, payload = null) {
 }
 
 function handlerEvent(ev) {
-  if (/localhost/gi.test(ev.origin)) {
+  if (/lanyicj/gi.test(ev.origin)) {
     switch (ev.data.action) {
       case 'GET_ACCOUNT':
         handlerLogin(ev.data.payload);
